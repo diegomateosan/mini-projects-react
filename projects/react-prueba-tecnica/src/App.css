@@ -1,0 +1,37 @@
+main {
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: system-ui;
+    gap: 1rem;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+p{
+    width: 17rem;
+    object-fit: cover;
+    text-align: center;
+}
+
+section img {
+    max-width: 50%;
+    max-height: 20rem;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #92e2ff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor:pointer;
+}
