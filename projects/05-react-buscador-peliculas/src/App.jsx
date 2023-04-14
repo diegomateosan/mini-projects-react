@@ -18,6 +18,7 @@ function App () {
     event.preventDefault()
     /* const { query } = Object.fromEntries(new window.FormData(event.target)) <- Forma no controlada */
     getMovies({ query })
+    console.log(movies)
   }
 
   const handleChange = (event) => {
